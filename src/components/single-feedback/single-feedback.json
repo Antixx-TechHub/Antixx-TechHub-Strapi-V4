@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_single_feedback_single_feedbacks",
+  "info": {
+    "displayName": "Single-Feedback",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "category": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

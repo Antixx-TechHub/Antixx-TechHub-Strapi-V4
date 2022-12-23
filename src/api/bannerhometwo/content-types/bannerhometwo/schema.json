@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "bannerhometwos",
+  "info": {
+    "singularName": "bannerhometwo",
+    "pluralName": "bannerhometwos",
+    "displayName": "Banner Home Two"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "btnLink": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

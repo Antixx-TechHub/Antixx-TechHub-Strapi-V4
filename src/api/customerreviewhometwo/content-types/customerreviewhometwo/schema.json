@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "customerreviewhometwos",
+  "info": {
+    "singularName": "customerreviewhometwo",
+    "pluralName": "customerreviewhometwos",
+    "displayName": "Customer Review Home Two",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "singleFeedbacks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-feedback.single-feedback"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "appscreens",
+  "info": {
+    "singularName": "appscreen",
+    "pluralName": "appscreens",
+    "displayName": "App Screen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "singleScreenshot": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-screenshot.single-screenshot"
+    }
+  }
+}

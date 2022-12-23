@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "trustedbies",
+  "info": {
+    "singularName": "trustedby",
+    "pluralName": "trustedbies",
+    "displayName": "Trusted By",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "trustedBySlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner-images.partner-images"
+    }
+  }
+}

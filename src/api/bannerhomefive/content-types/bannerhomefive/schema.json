@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "bannerhomefives",
+  "info": {
+    "singularName": "bannerhomefive",
+    "pluralName": "bannerhomefives",
+    "displayName": "Banner Home Five"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

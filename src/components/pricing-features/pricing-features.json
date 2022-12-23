@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pricing_features_pricing_features",
+  "info": {
+    "displayName": "Pricing-Features",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

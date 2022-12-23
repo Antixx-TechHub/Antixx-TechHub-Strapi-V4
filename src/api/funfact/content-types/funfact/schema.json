@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "funfacts",
+  "info": {
+    "singularName": "funfact",
+    "pluralName": "funfacts",
+    "displayName": "Funfact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "funfactsBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "funfacts-box.funfacts-box"
+    }
+  }
+}

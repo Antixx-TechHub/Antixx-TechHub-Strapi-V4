@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_single_screenshot_single_screenshots",
+  "info": {
+    "displayName": "Single-Screenshot",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

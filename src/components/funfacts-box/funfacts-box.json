@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_funfacts_box_funfacts_boxes",
+  "info": {
+    "displayName": "Funfacts-Box",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "class": {
+      "type": "string",
+      "default": "funfacts-box"
+    },
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    }
+  }
+}

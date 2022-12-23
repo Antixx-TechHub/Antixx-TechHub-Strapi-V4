@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_features_list_features_lists",
+  "info": {
+    "displayName": "Features-List",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "gettingbestapps",
+  "info": {
+    "singularName": "gettingbestapp",
+    "pluralName": "gettingbestapps",
+    "displayName": "Getting Best App",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "featuresList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features-list.features-list"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

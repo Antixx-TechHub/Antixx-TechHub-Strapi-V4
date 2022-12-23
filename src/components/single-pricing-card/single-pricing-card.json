@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_single_pricing_card_single_pricing_cards",
+  "info": {
+    "displayName": "Single-Pricing-Card",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "pricingFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-features.pricing-features"
+    }
+  }
+}

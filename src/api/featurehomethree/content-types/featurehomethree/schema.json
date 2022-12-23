@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "featurehomethrees",
+  "info": {
+    "singularName": "featurehomethree",
+    "pluralName": "featurehomethrees",
+    "displayName": "Feature Home Three",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "singleFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-features.single-features"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "featureshometwos",
+  "info": {
+    "singularName": "featureshometwo",
+    "pluralName": "featureshometwos",
+    "displayName": "Features Home Two"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "singleFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-features.single-features"
+    }
+  }
+}

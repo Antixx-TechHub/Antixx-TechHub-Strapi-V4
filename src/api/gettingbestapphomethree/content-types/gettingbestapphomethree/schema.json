@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "gettingbestapphomethrees",
+  "info": {
+    "singularName": "gettingbestapphomethree",
+    "pluralName": "gettingbestapphomethrees",
+    "displayName": "Getting Best App Home Three",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "featuresList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features-list.features-list"
+    },
+    "imageTwo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

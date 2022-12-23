@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_single_features_single_features",
+  "info": {
+    "displayName": "Single-Features",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "string",
+      "default": "Most probably the best dashboard design for your business you can try.",
+      "required": false
+    }
+  }
+}

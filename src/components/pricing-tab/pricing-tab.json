@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pricing_tab_pricing_tabs",
+  "info": {
+    "displayName": "Pricing-Tab",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pricingTab": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-pricing-card.single-pricing-card"
+    }
+  }
+}
