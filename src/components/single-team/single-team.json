@@ -2,7 +2,8 @@
   "collectionName": "components_single_team_single_teams",
   "info": {
     "displayName": "Single-Team",
-    "icon": "angle-double-right"
+    "icon": "angle-double-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,6 +15,13 @@
     },
     "position": {
       "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

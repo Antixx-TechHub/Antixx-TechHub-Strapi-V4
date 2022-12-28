@@ -3,11 +3,11 @@ module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
     connection: {
-      host: env('DATABASE_HOST', 'postgresql-101073-0.cloudclusters.net'),
-        port: env.int('DATABASE_PORT', 10142),
-        database: env('DATABASE_NAME', 'antixxtechhubv4'),
-        user: env('DATABASE_USERNAME', 'pbwebvision'),
-        password: env('DATABASE_PASSWORD', 'Pash@8481'),
+      host: env('DATABASE_HOST', 'containers-us-west-34.railway.app'),
+        port: env.int('DATABASE_PORT', 7958),
+        database: env('DATABASE_NAME', 'railway'),
+        user: env('DATABASE_USERNAME', 'postgres'),
+        password: env('DATABASE_PASSWORD', 'Lg3zUIFzqf5cRnvukScG'),
       ssl: env.bool("DATABASE_SSL", false),
     },
   },
