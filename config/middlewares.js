@@ -1,13 +1,13 @@
-module.exports = {
-  //...
-  settings: {
-    cors: {
-      enabled: true, 
-      // headers: '*', 
-      origin: ["http://localhost:1337", 'https://api.antixxtechhub.com'],
-    },
-  },
-};
+// module.exports = {
+//   //...
+//   settings: {
+//     cors: {
+//       enabled: true, 
+//       // headers: '*', 
+//       origin: ["http://localhost:1337", 'https://api.antixxtechhub.com'],
+//     },
+//   },
+// };
 
 module.exports = [
   "strapi::errors",
