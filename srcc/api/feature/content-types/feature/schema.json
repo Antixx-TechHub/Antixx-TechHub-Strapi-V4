@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "features",
+  "info": {
+    "singularName": "feature",
+    "pluralName": "features",
+    "displayName": "Feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "featuresCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-features.single-features"
+    }
+  }
+}

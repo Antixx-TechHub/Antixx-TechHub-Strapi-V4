@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_overview_card_overview_cards",
+  "info": {
+    "displayName": "Overview-Card",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "visit": {
+      "type": "string"
+    }
+  }
+}

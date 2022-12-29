@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Faq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "default": "FAQ"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Frequently Ask Questions"
+    },
+    "faqAccordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accordion-item.accordion-item"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_single_features_single_features",
+  "info": {
+    "displayName": "Single-Features",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet consetetur sadipscing elitr"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "View More"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/services-details"
+    }
+  }
+}

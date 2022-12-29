@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_accordion_item_accordion_items",
+  "info": {
+    "displayName": "Accordion-Item",
+    "icon": "arrows-alt-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string",
+      "regex": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est nibh felis tortor viverra pulvinar nibh tincidunt pellentesque dolor. Sem lectus magna metus sit felis, ipsum, et. Auctor tellus id nunc nibh felis aliquam."
+    }
+  }
+}

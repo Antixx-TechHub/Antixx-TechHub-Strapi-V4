@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "projectshometwos",
+  "info": {
+    "singularName": "projectshometwo",
+    "pluralName": "projectshometwos",
+    "displayName": "Projects Home Two",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "default": "PROJECTS"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Our Latest Incredible Client's Projects"
+    },
+    "projectsItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects-item.projects-item"
+    }
+  }
+}

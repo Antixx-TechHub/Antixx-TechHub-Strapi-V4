@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonialshomethrees",
+  "info": {
+    "singularName": "testimonialshomethree",
+    "pluralName": "testimonialshomethrees",
+    "displayName": "Testimonials Home Three",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bgText": {
+      "type": "string",
+      "default": "FEEDBACK"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "TESTIMONIALS"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Some Sweet Talk Of Our Happy Clients"
+    },
+    "testimonialsCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-testimonials-card.single-testimonials-card"
+    }
+  }
+}

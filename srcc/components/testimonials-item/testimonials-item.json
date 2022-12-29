@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_testimonials_item_testimonials_items",
+  "info": {
+    "displayName": "Testimonials-Item",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "desc": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet consetetur sadips cin go elitr sed diam nonumy eirmod."
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}

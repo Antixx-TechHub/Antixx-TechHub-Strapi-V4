@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "choosehomethrees",
+  "info": {
+    "singularName": "choosehomethree",
+    "pluralName": "choosehomethrees",
+    "displayName": "Choose Us Home Three",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bgText": {
+      "type": "string",
+      "default": "PROCESS"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "WORK PROCESS"
+    },
+    "heading": {
+      "type": "string",
+      "default": "We Follow Four Simple Steps"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years lorem ipsum dolor sit amet."
+    },
+    "ChooseCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-choose-card.single-choose-card"
+    }
+  }
+}

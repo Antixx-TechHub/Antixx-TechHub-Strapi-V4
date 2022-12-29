@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicesdetails",
+  "info": {
+    "singularName": "servicesdetail",
+    "pluralName": "servicesdetails",
+    "displayName": "Services Details",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…"
+    },
+    "longDesc": {
+      "type": "richtext",
+      "default": "<div class=\"article-services-content\">                     <ul class=\"list\">                         <li>                             <h4>What You Will Get Under This Service</h4>                         </li>                         <li><i class=\"ri-checkbox-circle-line\"></i> Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut</li>                         <li><i class=\"ri-checkbox-circle-line\"></i> Dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt.</li>                         <li><i class=\"ri-checkbox-circle-line\"></i> Consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt.</li>                         <li><i class=\"ri-checkbox-circle-line\"></i> Sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore dolore magna aliquyam erat.</li>                         <li><i class=\"ri-checkbox-circle-line\"></i> Sed diam nonumy eirmod tempor invidunt ut labore dolore magna aliquyam erat.</li>                     </ul>                 </div>                 <div class=\"article-services-content\">                     <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum steter clita kasd gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>                     <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore dolore magna aliquyam erat sed diam voluptua.</p>                 </div>                 <div class=\"article-services-quote\">                     <i class=\"ri-double-quotes-l\"></i>                     <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua.</p>                 </div>                 <div class=\"article-services-content\">                     <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum steter clita kasd gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>                     <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore dolore magna aliquyam erat sed diam voluptua.</p>                 </div>"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "View More"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true,
+      "targetField": "title"
+    }
+  }
+}

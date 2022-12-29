@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_footer_social_footer_socials",
+  "info": {
+    "displayName": "Footer-Social",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_gallery_item_gallery_items",
+  "info": {
+    "displayName": "Gallery-Item",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "class": {
+      "type": "string",
+      "default": "col-lg-6 col-md-6 col-sm-6"
+    }
+  }
+}

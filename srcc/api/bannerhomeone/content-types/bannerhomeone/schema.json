@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "bannerhomeones",
+  "info": {
+    "singularName": "bannerhomeone",
+    "pluralName": "bannerhomeones",
+    "displayName": "Banner Home One",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slidesItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner-slides-item.banner-slides-item"
+    }
+  }
+}

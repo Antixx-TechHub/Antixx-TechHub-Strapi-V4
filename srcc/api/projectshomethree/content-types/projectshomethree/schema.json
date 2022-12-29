@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "projectshomethrees",
+  "info": {
+    "singularName": "projectshomethree",
+    "pluralName": "projectshomethrees",
+    "displayName": "Projects Home Three",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bgText": {
+      "type": "string",
+      "default": "WORK"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "PROJECTS"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Our Latest Incredible Client's Projects"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are technology solutions providing company all over the world doing over 40 years."
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Explore All Projects"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/projects"
+    },
+    "projectsSlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects-item.projects-item"
+    }
+  }
+}

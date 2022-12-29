@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "serviceshomeones",
+  "info": {
+    "singularName": "serviceshomeone",
+    "pluralName": "serviceshomeones",
+    "displayName": "Services Home One",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "default": "heading"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are technology solutions providing company all over the world doing over 40 years."
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/services-style-1"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Explore All Services"
+    },
+    "servicesSlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services-item.services-item"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

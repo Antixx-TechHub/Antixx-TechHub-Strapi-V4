@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "overviews",
+  "info": {
+    "singularName": "overview",
+    "pluralName": "overviews",
+    "displayName": "Overview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "overviewCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "overview-card.overview-card"
+    }
+  }
+}

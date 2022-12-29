@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_team_social_team_socials",
+  "info": {
+    "displayName": "Team-Social",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string",
+      "default": "ri-facebook-fill"
+    }
+  }
+}

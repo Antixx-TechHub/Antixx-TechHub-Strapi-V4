@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouthomethrees",
+  "info": {
+    "singularName": "abouthomethree",
+    "pluralName": "abouthomethrees",
+    "displayName": "About Home Three",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bgText": {
+      "type": "string",
+      "default": "ABOUT US"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "WHO WE ARE"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Your Trusted Partner For All IT Solutions"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years. Lorem ipsum dolor sit amet consetetur sadipscing elitre sed diam non umy eirmod tempor invidunt ut labore."
+    },
+    "aboutCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-about-card.single-about-card"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Know More About Us"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/about-style-1"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "chooseushomeones",
+  "info": {
+    "singularName": "chooseushomeone",
+    "pluralName": "chooseushomeones",
+    "displayName": "Choose Us Home One",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "chooseCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-choose-card.single-choose-card"
+    }
+  }
+}

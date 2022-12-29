@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "default": "PRICING"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Our Pricing For All Type Of Technology Services"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years lorem ipsum dolor sit amet."
+    },
+    "pricingCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-pricing-card.single-pricing-card"
+    }
+  }
+}

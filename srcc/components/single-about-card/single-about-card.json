@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_single_about_card_single_about_cards",
+  "info": {
+    "displayName": "Single-About-Card",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet consetetur sadip scing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyamei erat sed diam voluptua at vero eos et accusam et justo duo."
+    }
+  }
+}

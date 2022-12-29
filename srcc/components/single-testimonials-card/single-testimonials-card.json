@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_single_testimonials_card_single_testimonials_cards",
+  "info": {
+    "displayName": "Single-Testimonials-Card",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "string",
+      "default": "We look and sound so good! I am still in shock at how smooth this process was. The professionalism, collaboration and the design they come up is great."
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

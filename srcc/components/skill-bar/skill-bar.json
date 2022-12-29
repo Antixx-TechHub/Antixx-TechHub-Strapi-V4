@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_skill_bar_skill_bars",
+  "info": {
+    "displayName": "Skill-Bar",
+    "icon": "arrow-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "style": {
+      "type": "string",
+      "default": "left: 92%;"
+    },
+    "percent": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string",
+      "default": "width: 92%"
+    },
+    "class": {
+      "type": "string",
+      "default": "bg-FEB302"
+    }
+  }
+}

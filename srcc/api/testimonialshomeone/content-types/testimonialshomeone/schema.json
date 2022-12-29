@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonialshomeones",
+  "info": {
+    "singularName": "testimonialshomeone",
+    "pluralName": "testimonialshomeones",
+    "displayName": "Testimonials Home One",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "default": "TESTIMONIALS"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Some Sweet Talk Of Our Happy Clients"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years lorem ipsum dolor sit amet."
+    },
+    "subDesc": {
+      "type": "string",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years. lorem ipsum dolor sit amet consetetur."
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/about-style-1"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Know More About Us"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials-item.testimonials-item"
+    }
+  }
+}

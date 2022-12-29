@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_banner_slides_item_two_banner_slides_item_twos",
+  "info": {
+    "displayName": "Banner-Slides-Item-two",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "default": "WE ARE LEADING TECHNOLOGY SOLUTIONS PROVIDING COMPANY"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years. Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor."
+    },
+    "className": {
+      "type": "string",
+      "default": "main-hero-item"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact"
+    }
+  }
+}

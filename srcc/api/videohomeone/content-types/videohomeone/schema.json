@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "videohomeones",
+  "info": {
+    "singularName": "videohomeone",
+    "pluralName": "videohomeones",
+    "displayName": "Video Home One",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "videoLink": {
+      "type": "string",
+      "default": "https://www.youtube.com/embed/bk7McNUjWgw",
+      "required": false
+    }
+  }
+}

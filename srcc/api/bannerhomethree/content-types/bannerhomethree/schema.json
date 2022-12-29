@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "bannerhomethrees",
+  "info": {
+    "singularName": "bannerhomethree",
+    "pluralName": "bannerhomethrees",
+    "displayName": "Banner Home Three",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "btnLink": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

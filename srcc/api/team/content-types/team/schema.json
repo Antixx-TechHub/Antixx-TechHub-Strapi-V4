@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "Team",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bgText": {
+      "type": "string",
+      "default": "TEAM"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "TEAM MEMBER"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Our Expert IT Consultants"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years lorem ipsum dolor sit amet."
+    },
+    "singleTeam": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-card.team-card"
+    }
+  }
+}

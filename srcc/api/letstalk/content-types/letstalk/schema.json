@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "letstalks",
+  "info": {
+    "singularName": "letstalk",
+    "pluralName": "letstalks",
+    "displayName": "Lets Talk",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bgText": {
+      "type": "string",
+      "default": "LET'S TALK"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "default": "We Would Like To Hear From You Any Question"
+    },
+    "desc": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet consetetur sadipscing elitre sed diam non umy eirmod tempor invidunt ut labore."
+    }
+  }
+}

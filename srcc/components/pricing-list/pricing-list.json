@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pricing_list_pricing_lists",
+  "info": {
+    "displayName": "Pricing-List",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "default": "ri-check-fill"
+    },
+    "list": {
+      "type": "string"
+    }
+  }
+}

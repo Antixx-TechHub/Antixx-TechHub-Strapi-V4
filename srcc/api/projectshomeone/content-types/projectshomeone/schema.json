@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "projectshomeones",
+  "info": {
+    "singularName": "projectshomeone",
+    "pluralName": "projectshomeones",
+    "displayName": "Projects Home One",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "default": "PROJECTS"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Our Latest Incredible Client's Projects"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years lorem ipsum dolor sit amet."
+    },
+    "projectsSlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects-item.projects-item"
+    }
+  }
+}

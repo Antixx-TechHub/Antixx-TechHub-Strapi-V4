@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "skills",
+  "info": {
+    "singularName": "skill",
+    "pluralName": "skills",
+    "displayName": "Skill",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "default": "SKILLSET"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "skillBar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skill-bar.skill-bar"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Explore More"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/about-style-1"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

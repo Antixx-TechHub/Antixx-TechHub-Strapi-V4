@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "bannerhometwos",
+  "info": {
+    "singularName": "bannerhometwo",
+    "pluralName": "bannerhometwos",
+    "displayName": "Banner Home Two",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroSlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner-slides-item-two.banner-slides-item-two"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_team_card_team_cards",
+  "info": {
+    "displayName": "Team-Card",
+    "icon": "arrow-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-social.team-social"
+    }
+  }
+}
