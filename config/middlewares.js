@@ -16,6 +16,14 @@ module.exports = [
   },
   "strapi::cors",
   "strapi::poweredBy",
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      headers: '*',
+      origin: ['http://localhost:1337', 'https://api.antixxtechhub.com']
+    }
+  },
   "strapi::logger",
   "strapi::query",
   "strapi::body",
