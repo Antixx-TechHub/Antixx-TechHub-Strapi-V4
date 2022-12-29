@@ -21,7 +21,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:1337', 'https://api.antixxtechhub.com']
+      origin: ['http://localhost:1337', 'https://strapi.antixxtechhub.com']
     }
   },
   "strapi::logger",
