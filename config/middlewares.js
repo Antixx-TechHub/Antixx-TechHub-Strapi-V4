@@ -16,14 +16,14 @@ module.exports = [
   },
   "strapi::cors",
   "strapi::poweredBy",
-  {
-    name: 'strapi::cors',
-    config: {
-      enabled: true,
-      headers: '*',
-      origin: ['http://localhost:1337/', 'https://www.antixxtechhub.com/', 'https://antixxtechhub.com/', 'http://localhost:3000/']
-    }
-  },
+  // {
+  //   name: 'strapi::cors',
+  //   config: {
+  //     enabled: true,
+  //     headers: '*',
+  //     origin: ['http://localhost:1337/', 'https://www.antixxtechhub.com/', 'https://antixxtechhub.com/', 'http://localhost:3000/']
+  //   }
+  // },
   "strapi::logger",
   "strapi::query",
   "strapi::body",
